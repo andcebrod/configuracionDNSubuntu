@@ -1,0 +1,17 @@
+;
+; BIND reverse data file for local loopback interface
+;
+
+$ORIGIN 1.168.192.in-addr.arpa.
+$TTL	604800
+@	IN	SOA	andresasir.edu. hostmaster.andresasir.edu.  (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+
+
+@	IN	NS	andresasir.edu.
+61	IN	PTR	andresasir.edu.
